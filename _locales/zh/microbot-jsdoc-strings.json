@@ -1,0 +1,22 @@
+{
+	"microbot.microbotInit":"Microbot板初始化，请在开机时执行",
+	"microbot.setServo":"设置1到8号舵机角度，角度范围0~180",
+	"microbot.setMotorSpeed":"设置马达1和马达2的速度，速度范围-100到100，可控制坦克车行进和转弯",
+	"microbot.Ultrasonic":"获取超声波检测到障碍物的距离",
+	"microbot.getSoundVolume":"获取声音传感器检测到的音量等级，范围0到255",
+	"microbot.readLineFollowerStatus":"获取巡线传感器的状态",
+	"microbot.setPixelRGB":"设置彩灯颜色，设置完成后请执行显示彩灯操作",
+	"microbot.showLight":"显示彩灯，和设置彩灯颜色配合使用，设置完彩灯颜色后必须执行显示彩灯完成显示",
+	"microbot.clearLight":"清除彩灯颜色，关闭彩灯",
+	"microbot.adjustWhite":"颜色传感器校正白色，每次开机第一次使用颜色传感器都必须先校正白色",
+	"microbot.adjustBlack":"颜色传感器校正黑色，每次开机第一次使用颜色传感器都必须先校正白色，然后校正黑色",
+	"microbot.checkCurrentColor":"颜色传感器获取颜色值，必须先校正白色和黑色方可执行",
+	"microbot.analyzeBluetoothCmd":"解析手机APP发送的蓝牙命令类型，一共有9种命令类型：坦克车行进命令，舵机调试命令，获取超声波距离命令，获取温度命令，获取声音大小等级命令，获取光线等级命令，设置彩灯颜色命令，鸣笛命令，固件版本信息命令",
+	"microbot.getArgs":"解析手机App发送的命令参数，舵机调试命令有3个参数，其余都只有一个参数",
+	"microbot.getCmdtype":"返回命令类型的枚举，一般在获取到手机APP发送的蓝牙命令类型后，可以与这个模块进行比对命令类型",
+	"microbot.getRunCarTypeget":"获取坦克车行进命令类型，有停止、前进、后退、左转、右转、慢速前进，慢速左转，慢速右转",
+	"microbot.convertUltrasonic":"转换超声波障碍物距离为标准命令，发送到手机端，APP会显示超声波障碍物距离",
+	"microbot.convertTemperature":"转换温度值为标准命令，发送到手机端，APP会显示当前温度",
+	"microbot.convertLight":"转换光线值为标准命令，发送到手机端，APP会显示当前光线等级(0~255)",
+	"microbot.littleStarMelody":"小星星旋律"
+}

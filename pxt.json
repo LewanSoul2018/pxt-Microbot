@@ -1,0 +1,21 @@
+{
+    "name": "microbot",
+    "version": "0.0.1",
+    "description": "Extension for LewanSoul Microbot",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts",
+        "RGBLight.ts",
+        "sendbuffer.asm",
+        "_locales/zh/microbot-strings.json",
+        "_locales/zh/microbot-jsdoc-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true
+}
