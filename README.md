@@ -12,6 +12,6 @@ MIT
 (The metadata above is needed for package search.)
 
 ```package
-microbot=github:LewanSoul2018/pxt-Microbot
+Microbot=github:LewanSoul2018/pxt-Microbot
 ```
 
