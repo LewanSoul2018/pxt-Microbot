@@ -1,4 +1,4 @@
-# microbot
+# Microbot
 
 Extension for Lewansoul Microbot
 
@@ -8,7 +8,7 @@ MIT
 
 ## Supported targets
 
-* for PXT/microbit
+* for PXT/Microbit
 (The metadata above is needed for package search.)
 
 ```package
